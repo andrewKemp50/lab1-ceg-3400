@@ -42,8 +42,9 @@ hash)
 * What did you think about Task 2?
 	* Task 2 was rather straightfoward and easy to understand. I gave up on Task 1 and decided to do Task 2 instead, in case it makes figuring out Task 1 easier.
 * Is there a better way than brute force to attempt to get higher valued coins?
+	* No
 * Why or why not?
-
+	* Changing the nonce by even one character will completely alter the resulting hash. There is no (known) non-trivial way to mine higher valued coins because the hash function is a one-way function.
 
 ```bash
 please put any cool bash one-liners or other piped commands you
