@@ -1,5 +1,6 @@
 #!/bin/bash
 
 for i in $(cat pre-salting-data.csv); do
-	printf "$i \n"
+	hash=$(printf $i | sha256sum)
+	printf "$hash \n"
 done
