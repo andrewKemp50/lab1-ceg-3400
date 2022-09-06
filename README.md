@@ -30,7 +30,6 @@ Answer the following in this file:
 ```bash
 please put any cool bash one-liners or other piped commands you
 learned/struggled with for task 1 here
-`$RANDOM`
 
 ---
 
