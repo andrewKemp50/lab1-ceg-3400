@@ -7,16 +7,26 @@ VARIABLE=some_string
 
 echo $VARIABLE
 
-## Prints all words in provided dictionary
-## (you might want to find a bigger dictionary)
+# nested for loop, iterates through each word in 
+# the dictionary, then iterates through each salt from
+# 0 to 999999. If it finds a hash that starts with 4
+# or 5 0's, it will be outputted.
 for i in $(cat ../data/dictionary); do
-  printf $i
+	for j in $(seq 0 999999); do
+		# calculate hash
+		hash=$(printf "$j$i" | sha256sum)
+
+		# determine if hash is a valid coin
+		if [ "${hash:0:4}" == "0000" ]; then
+			printf "$hash $j$i \n"
+		fi
+		
+		if [ "${hash:0:5}" == "00000" ]; then
+			printf "$hash $j$i \n"
+		fi	
+	done
+	printf "$i \n"
 done
 
 
-## prints all numbers between 100 and 105
-for i in $(seq 100 105); do
-  printf $i
-done
-
-
+printf "Done!"
