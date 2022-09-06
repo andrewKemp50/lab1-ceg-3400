@@ -40,6 +40,7 @@ hash)
 	* `BONUS ("00000" Hash) 00000a1a28fc165e4d058deb815feb7670a5651ad42a0a5f55107cc7bee83eef - 321909these`
 
 * What did you think about Task 2?
+	* Task 2 was rather straightfoward and easy to understand. I gave up on Task 1 and decided to do Task 2 instead, in case it makes figuring out Task 1 easier.
 * Is there a better way than brute force to attempt to get higher valued coins?
 * Why or why not?
 
