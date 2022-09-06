@@ -37,7 +37,7 @@ hash)
 
 	* `000075bfaf2cabb0fce1410be530076cf19b88ca8464fe9979964e01c6234ea7 - 28074these`
 
-	* `BONUS (`00000` Hash) 00000a1a28fc165e4d058deb815feb7670a5651ad42a0a5f55107cc7bee83eef - 321909these`
+	* `BONUS ("00000" Hash) 00000a1a28fc165e4d058deb815feb7670a5651ad42a0a5f55107cc7bee83eef - 321909these`
 
 * What did you think about Task 2?
 * Is there a better way than brute force to attempt to get higher valued coins?
